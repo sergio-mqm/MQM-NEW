@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+
+  @font-face {
+    font-family: 'primary';
+    src: url('./assets/micro.otf');
+  }
+  
+}
+
+@font-face {
+  font-family: 'secundary';
+  src: url('./assets/Open-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Open Bold';
+  src: url('./assets/Open-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Open Med';
+  src: url('./assets/Open-Medium.ttf');
+}
+
