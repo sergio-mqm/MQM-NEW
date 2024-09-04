@@ -1,0 +1,17 @@
+---
+import { Image } from "astro:assets";
+import logo from "../../public/maqma.svg";
+import iso from "../../public/iso.svg";
+---
+
+<div class="container-nav">
+  <Image src={logo} alt="MAQMA" class="mqm-image" loading="lazy" />
+  <nav class="nav">
+    <a class="nav-link" href="/"> Home </a>
+    <a class="nav-link" href="/about"> About </a>
+    <a class="nav-link" href="/services"> Services </a>
+    <a class="nav-link" href="/contact"> Contact </a>
+  </nav>
+  
+  <Image src={iso} alt="MAQMA" class="mqm-image" loading="lazy" />
+</div>

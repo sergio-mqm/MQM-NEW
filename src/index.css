@@ -3,15 +3,10 @@
 @tailwind utilities;
 
 
-@layer base {
 
-  @font-face {
-    font-family: 'primary';
-    src: url('./assets/micro.otf');
-  }
+
+@import url('./assets/micro.otf');
   
-}
-
 @font-face {
   font-family: 'secundary';
   src: url('./assets/Open-Regular.ttf');
@@ -27,3 +22,20 @@
   src: url('./assets/Open-Medium.ttf');
 }
 
+
+.container-nav{
+  @apply bg-primary font-black flex flex-row justify-between
+}
+
+.mqm-image{
+  @apply m-10
+}
+
+.nav{
+  @apply mx-auto p-14
+}
+
+.nav-link{
+  @apply text-secundary
+hover:text-white ease-in-out transition-all m-5
+}

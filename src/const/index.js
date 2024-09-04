@@ -1,21 +1,29 @@
-
-
-
-
 const navLinks = [
   {
-    title: 'Home'
+    title: "Home",
+    href: "/",
   },
   {
-  title: 'About'
+    title: "About",
+    href: "/about",
   },
   {
-    title: 'Services'
+    title: "Services",
+    href: "/services",
   },
   {
-    title: 'Contact'
+    title: "Contact",
+    href: "/contact",
+  },
+];
+
+
+const services = [
+  {
+    title: "Soldadura"
   }
 ]
+
 
 
 
