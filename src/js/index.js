@@ -20,7 +20,8 @@ const navLinks = [
 
 const services = [
   {
-    title: "Soldadura"
+    title: "Soldadura",
+    description: "Proceso de soldadura"
   }
 ]
 

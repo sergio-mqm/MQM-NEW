@@ -21,7 +21,7 @@ export default {
 			},
 
 			fontFamily: {
-				primary: [''],
+				primary: ['Micro'],
 				secundary: ['Open'],
 				medium: ['Open Med'],
 				bold: ['Open Bold']
