@@ -22,13 +22,13 @@
   src: url('./assets/Open-Medium.ttf');
 }
 
-
+/*navbar*/
 .container-nav{
-  @apply bg-primary font-black flex flex-row justify-between
+  @apply bg-primary flex flex-row justify-between
 }
 
 .mqm-image{
-  @apply m-10
+  @apply m-8
 }
 
 .nav{
@@ -38,4 +38,20 @@
 .nav-link{
   @apply text-secundary
 hover:text-white ease-in-out transition-all m-5
+  font-black font-mono text-xl
 }
+
+.header{
+  @apply  bg-red-400 
+}
+
+.header_cont{
+
+}
+
+
+
+
+
+
+/*navbar*/
