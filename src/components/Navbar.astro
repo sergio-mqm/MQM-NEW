@@ -9,9 +9,38 @@ import iso from "../../public/iso.svg";
   <nav class="nav">
     <a class="nav-link" href="/"> Home </a>
     <a class="nav-link" href="/about"> About </a>
-    <a class="nav-link" href="/services"> Services </a>
+    <a class="nav-link" href="/posts"> Services </a>
     <a class="nav-link" href="/contact"> Contact </a>
+    <a class="phone" href="tel:+461">+524612467946</a>
   </nav>
-  
+
   <Image src={iso} alt="MAQMA" class="mqm-image" loading="lazy" />
+
+  
 </div>
+
+<style is:global>
+  /*navbar*/
+  .container-nav {
+    @apply bg-primary flex flex-row justify-between;
+  }
+
+  .mqm-image {
+    @apply m-8;
+  }
+
+  .nav {
+    @apply mx-auto p-14;
+  }
+
+  .nav-link {
+    @apply text-white
+hover:text-secundary ease-in-out transition-all m-5
+  font-black  text-xl font-primary;
+  }
+
+
+  .phone{
+    @apply text-white mb-10;
+  }
+</style>

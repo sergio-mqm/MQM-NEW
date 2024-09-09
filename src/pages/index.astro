@@ -1,13 +1,17 @@
 ---
 import Navbar from "../components/Navbar.astro";
-import Carousel from "../components/Carousel.vue";
-import Layout from '../layouts/Layout.astro';
-import '../index.css'
+import Carousel from "../components/Carousel.astro";
+import Layout from "../layouts/Layout.astro";
+import Posts from "../components/Posts.astro";
+import "../index.css";
 ---
 
-<Layout title="Maquinados y Maquilas Especiales"
-description="Empresa maquiladora y manufacturera">
-		<Navbar />
-		<Carousel />
-</Layout>
+<Layout
+  title="Maquinados y Maquilas Especiales"
+  description="Empresa maquiladora y manufacturera"
+>
+  <Navbar />
 
+  <Carousel />
+  <Posts />
+</Layout>

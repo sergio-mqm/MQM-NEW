@@ -3,62 +3,32 @@
 @tailwind utilities;
 
 
-@layer base {
 
   @font-face {
-    font-family: 'primary';
+    font-family: primary;
     font-weight: normal;
     font-style: normal;
     font-display: swap;
-    src: url('./assets/Open-Regular.ttf') format('ttf');
-  } 
-}
+    src: url("./assets/micro.otf") format("truetype");
+  }
+
+  @font-face {
+    font-family: paragraph;
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    src: url("./assets/Open-Regular.ttf") format("truetype");
+  }
 
 
-@font-face {
-  font-family: 'Open Bold';
-  src: url('./assets/Open-Bold.ttf');
-}
-
-@font-face {
-  font-family: 'Open Med';
-  src: url('./assets/Open-Medium.ttf');
-}
-
-/*navbar*/
-.container-nav{
-  @apply bg-primary flex flex-row justify-between
-}
-
-.mqm-image{
-  @apply m-8
-}
-
-.nav{
-  @apply mx-auto p-14
-}
-
-.nav-link{
-  @apply text-secundary
-hover:text-white ease-in-out transition-all m-5
-  font-black  text-xl font-mono
-}
-
-/*navbar*/
-
+  @font-face {
+    font-family: titles;
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    src: url("./assets/Open-Medium.ttf") format("truetype");
+  }
 
 
 
 /*Carousel*/
-
-
-
-
-
-
-
-
-
-
-
-
