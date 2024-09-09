@@ -17,7 +17,8 @@ export async function getStaticPaths() {
 }
 ---
 
-<Layout title={post.title.rendered}>
+<Layout title={post.title.rendered}
+description="Empresa de servicios de maquila">
   <article>
     <h1 set:html={post.title.rendered} />
     <Fragment set:html={post.content.rendered} />
