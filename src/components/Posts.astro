@@ -4,7 +4,7 @@ let posts = await res.json();
 --- 
 
 <section>
-    <h1 class="title_services">Our Services</h1>
+    <h1 class="title_services"> Our Services </h1>
     {
       posts.map((post) => (
         <article class="rename">
@@ -23,5 +23,7 @@ let posts = await res.json();
     .title_services{
         @apply bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text text-5xl  
     }
+
     
-    </style>  
+    
+</style>  

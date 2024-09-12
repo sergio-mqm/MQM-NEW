@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 
-
   @font-face {
     font-family: primary;
     font-weight: normal;
@@ -29,6 +28,11 @@
     src: url("./assets/Open-Medium.ttf") format("truetype");
   }
 
-
-
 /*Carousel*/
+
+
+
+
+
+
+
