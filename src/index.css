@@ -28,6 +28,10 @@
     src: url("./assets/Open-Medium.ttf") format("truetype");
   }
 
+
+body {
+  @apply bg-primary
+}
 /*Carousel*/
 
 

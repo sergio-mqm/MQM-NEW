@@ -18,7 +18,6 @@ export default {
         primary: "#031927",
         secundary: "#9dd1f1",
         terciary: "#509aa8",
-        "blue-two": "#C8E0F4",
         white: "#ffffff",
         black: "#000000",
       },
