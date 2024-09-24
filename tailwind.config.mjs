@@ -9,7 +9,6 @@ export default {
     extend: {
       screens: {
         sm: "480px",
-        md: "769px",
         lg: "976px",
         xl: "1440px",
       },
@@ -27,6 +26,10 @@ export default {
         paragraph: ["paragraph"],
         titles: ["titles"],
         bold: ["Open Bold"],
+      },
+
+      backgroundImage:{
+        'hero-pattern': "url('/public/hero.jpg')",
       },
 
       spacing: {

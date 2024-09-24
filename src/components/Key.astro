@@ -1,19 +1,88 @@
 ---
-import { keyFeatures } from "../constant/index"
+import { keyFeatures } from "../constant/index";
 import Image from "astro/components/Image.astro";
+
+import custom from "../assets/images/custom.svg";
+import fast from "../assets/images/fast.svg";
+import premium from "../assets/images/premium.svg";
 ---
 
-<section class="">
-  <h1>Key Features</h1>
-  <div>
-    <title>Why chose Metal Sheets Inc?</title>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, veritatis eveniet ex asperiores officia consequatur.</p>
-  </div>
+<!-- Section  -->
+<section class="mx-auto flex flex-col flex-nowrap justify-between p-10">
+  <h1 class="font-primary text-secundary mx-auto text-2xl">Key Features</h1>
 
-  <div>
-{
-  
-}
+  <div class="mx-auto p-4">
+    <h2 class="mx-auto text-white text-center font-primary m-4">
+      Why chose Metal Sheets Inc?
+    </h2>
+    <p class="text-xl text-white max-w-4xl text-justify">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, veritatis
+      eveniet ex asperiores officia consequatur. Lorem ipsum dolor, sit amet
+      consectetur adipisicing elit. Minus sunt culpa modi magnam nemo? Deleniti
+      explicabo architecto, repudiandae incidunt perferendis quas consectetur,
+      suscipit voluptate hic tenetur, velit animi asperiores sint!
+    </p>
   </div>
 </section>
+<!-- Section  -->
 
+<!-- Tarjeta de servicios -->
+<!-- Item #1 -->
+<div
+  class="conatiner flex flex-col justify-center items-center gap-24 md:flex-row"
+>
+  <div class="max-w-sm bg-transparent border-4 border-gray-200 rounded-lg">
+    <div class="m-5">
+      <Image class="mx-auto" src={custom} alt="dddd" loading="lazy" />
+    </div>
+    <div class="p-5">
+      <h5 class="font-primary mb-2 text-white text-2xl text-center">
+        Custom Fabrications
+      </h5>
+    </div>
+    <p class="text-white font-mono m-2">
+      Here are the biggest enterprise technology acquisitions of 2021 so far, in
+      reverse chronological order.
+    </p>
+  </div>
+
+  <!-- Item #1 -->
+
+  <!-- Item #2 -->
+
+  <div class="max-w-sm bg-transparent border-4 border-gray-200 rounded-lg">
+    <div class="m-5">
+      <Image class="mx-auto" src={fast} alt="dddd" loading="lazy" />
+    </div>
+    <div class="p-5">
+      <h5 class="font-primary mb-2 text-white text-2xl text-center">
+        Custom Fabrications
+      </h5>
+    </div>
+    <p class="text-white font-mono m-2">
+      Here are the biggest enterprise technology acquisitions of 2021 so far, in
+      reverse chronological order.
+    </p>
+  </div>
+
+  <!-- Item #2 -->
+
+  <!-- Item #3 -->
+  <div class="max-w-sm bg-transparent border-4 border-gray-200 rounded-lg">
+    <div class="m-5">
+      <Image class="mx-auto" src={premium} alt="dddd" loading="lazy" />
+    </div>
+    <div class="p-5">
+      <h5 class="font-primary mb-2 text-white text-2xl text-center">
+        Custom Fabrications
+      </h5>
+    </div>
+    <p class="text-white font-mono m-2">
+      Here are the biggest enterprise technology acquisitions of 2021 so far, in
+      reverse chronological order.
+    </p>
+  </div>
+  <!-- Item #3 -->
+</div>
+
+<!-- Tarjeta de servicios -->
