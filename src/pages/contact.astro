@@ -1,11 +1,33 @@
 ---
-import Layout from "../layouts/Layout.astro"
+import Layout from "../layouts/Layout.astro";
+import Navbar from "../components/Navbar.astro";
+import Form from "../components/Form.astro";
+import Footer from "../components/Footer.astro";
+import "../index.css";
 ---
 
+<Layout title="Contact" description="Empresa de servicios de maquila">
+  <Navbar />
+  <Form />
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14943.319191435672!2d-100.8209254!3d20.5541437!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842cbb599f96c23b%3A0x50c6e41ba0bb2f93!2sMAQMA%2CCelaya!5e0!3m2!1ses-419!2smx!4v1727369424544!5m2!1ses-419!2smx"
+    width="1200"
+    height="400"
+    style="border:0;"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"
+    class="mx-auto rounded-lg m-5 p-5"
+  >
+  </iframe>
 
-<Layout title="Contact"
-description="Empresa de servicios de maquila">
-  <article>
-    <h1>Contact</h1>
-  </article>
+
+<div class="p-2 mx-auto border-2 max-w-144 rounded-lg ">
+  <h2 class="text-secundary text-2xl font-primary ">Sales</h2>
+  <a class="text-white font-paragraph m-5 text-xl text-center" href="mailto:contacto@maqma.mx">contacto@maqma.mx</a>
+  <h2 class="text-secundary text-2xl font-primary m-5">Human Resources</h2>
+  <a class="text-white font-paragraph m-5 text-xl text-center" href="mailto:rh@maqma.mx">rh@maqma.mx</a>
+</div>
+  
+
 </Layout>
