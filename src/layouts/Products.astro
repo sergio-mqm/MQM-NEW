@@ -1,0 +1,14 @@
+--- 
+const { frontmatter, content } = Astro.props;
+---
+<html>
+  <head>
+    <title>{frontmatter.title}</title>
+  </head>
+  <body>
+    <h1>{frontmatter.title}</h1>
+    <article>
+      <slot />
+ 1   </article>
+  </body>
+</html>
