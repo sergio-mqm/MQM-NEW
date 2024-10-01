@@ -1,12 +1,14 @@
 ---
 import { navLinks } from "../constant";
+const year: number = new Date().getFullYear();
 ---
 
-<footer class="flex flex-wrap justify-between mx-auto">
-  <div class="flex flex-wrap justify-beetween">
-    <p class="text-white text-xl m-5 p-5">
-      &copy; Maquinados y Maquilas Especiales {2022}
+<footer class="border-2 border-red-700">
+  <div class="flex flex-wrap items-center justify-between">
+    <p class="text-white text-xl font-paragraph m-5 p-5">
+      &copy; Maquinados y Maquilas Especiales 
     </p>
-    <a href="tel:+4612467946" class="text-white">4612467946</a>
+    <p class="text-white font-paragraph">{year}</p>
+    <a href="tel:+4612467946" class="text-white mx-auto">4612467946</a>
   </div>
 </footer>
