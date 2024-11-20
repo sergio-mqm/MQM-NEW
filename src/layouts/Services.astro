@@ -8,8 +8,8 @@ import "../styles/index.css";
     <title>{frontmatter.title}</title>
   </head>
   <body>
-    <h1>{frontmatter.title}</h1>
-    <article>
+    <h1 class="text-white text-2xl font-primary">{frontmatter.title}</h1>
+    <article class="text-white">{frontmatter.content}
       <slot />
     </article>
   </body>

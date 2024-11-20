@@ -2,41 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: primary;
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: url("fonts/micro.otf") format("truetype");
+}
 
-  @font-face {
-    font-family: primary;
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-    src: url("fonts/micro.otf") format("truetype");
-  }
+@font-face {
+  font-family: paragraph;
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: url("fonts/Open-Regular.ttf") format("truetype");
+}
 
-  @font-face {
-    font-family: paragraph;
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-    src: url("fonts/Open-Regular.ttf") format("truetype");
-  }
-
-
-  @font-face {
-    font-family: titles;
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-    src: url("fonts/Open-Medium.ttf") format("truetype");
-  }
-
+@font-face {
+  font-family: titles;
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: url("fonts/Open-Medium.ttf") format("truetype");
+}
 
 body {
-  @apply bg-primary
+  @apply bg-primary;
 }
 /*Carousel*/
-
-
-
-
-
-
-

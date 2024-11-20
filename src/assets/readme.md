@@ -4,11 +4,11 @@ This folder contains the assets for the MQM-NEW project.
 
 **Assets:**
 
-* **images:** Contains images used in the project.
-* **fonts:** Contains fonts used in the project.
-* **icons:** Contains icons used in the project.
-* **videos:** Contains videos used in the project.
-* **audio:** Contains audio used in the project.
+- **images:** Contains images used in the project.
+- **fonts:** Contains fonts used in the project.
+- **icons:** Contains icons used in the project.
+- **videos:** Contains videos used in the project.
+- **audio:** Contains audio used in the project.
 
 **Note:**
 

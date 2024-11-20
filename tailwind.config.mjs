@@ -28,8 +28,8 @@ export default {
         bold: ["Open Bold"],
       },
 
-      backgroundImage:{
-        'hero-pattern': "url('/public/hero.jpg')",
+      backgroundImage: {
+        "hero-pattern": "url('/public/hero.jpg')",
       },
 
       spacing: {

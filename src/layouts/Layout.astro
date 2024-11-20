@@ -1,6 +1,6 @@
 ---
-import ViewTransitions from 'astro/components/ViewTransitions.astro';
-import { fade } from 'astro:transitions';
+import ViewTransitions from "astro/components/ViewTransitions.astro";
+import { fade } from "astro:transitions";
 interface Props {
   title: string;
   description: string;
@@ -21,8 +21,7 @@ const { title, description } = Astro.props;
     <title>{title}</title>
     <ViewTransitions />
   </head>
-  <body transition:animate={fade({ duration: '0.4s' })}>
-  
+  <body transition:animate={fade({ duration: "0.4s" })}>
     <slot />
 
     <script is:inline src="../../node_modules/flowbite/dist/flowbite.min.js"

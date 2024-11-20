@@ -18,53 +18,51 @@ export const navLinks = [
   },
 ];
 
-
-
-//agregar solo servicios para que lo renderice el navegador 
+//agregar solo servicios para que lo renderice el navegador
 export const services = [
   {
     title: "Laser cutting",
-    description: "Laser cutting "
+    description: "Laser cutting ",
   },
   {
     title: "Soldadura",
-    description: "Soldadura"
+    description: "Soldadura",
   },
   {
     title: "Maquinado",
-    description: "Maquinado CNC"
+    description: "Maquinado CNC",
   },
   {
     title: "Fresado CNC",
-    description: "Fresado CNC"
+    description: "Fresado CNC",
   },
   {
     title: "Electrostatic Paint",
-    description:"Pinture "
+    description: "Pinture ",
   },
   {
-    title:"Rectificado Centerless",
+    title: "Rectificado Centerless",
     description: "Rectificado centerless",
   },
   {
     title: "Corte de barra",
-    description: "Corte de barras"
+    description: "Corte de barras",
   },
   {
     title: "Doblado de almabre",
-    description: "Doblado de almabre"
+    description: "Doblado de almabre",
   },
   {
     title: "Doblado de lamina",
-    description: "Doblado de lamina"
-  }
-]
+    description: "Doblado de lamina",
+  },
+];
 
 // Key Features
 export const keyFeatures = [
   {
     title: "Premium Materials",
-    description: "our metals sheets are made from the highstet-quality"
+    description: "our metals sheets are made from the highstet-quality",
   },
   {
     title: "Custom Fabrications",
@@ -73,6 +71,5 @@ export const keyFeatures = [
   {
     title: "Fast delivery",
     description: "our metals sheets are made from the highstet-quality",
-  }
-]
-
+  },
+];
